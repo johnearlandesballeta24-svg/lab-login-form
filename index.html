@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Login</h2>
+
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder="Enter your username" />
+      <p class="error-msg" id="username-error"></p>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" />
+      <p class="error-msg" id="password-error"></p>
+
+      <button onclick="handleLogin()">Login</button>
+
+      <p class="success-msg" id="success-msg">Login Successful!</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
